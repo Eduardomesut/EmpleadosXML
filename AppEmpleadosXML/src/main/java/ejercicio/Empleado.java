@@ -54,4 +54,15 @@ public class Empleado {
     public void setComision(float comision) {
         this.comision = comision;
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "codigo=" + codigo +
+                ", nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", salario=" + salario +
+                ", comision=" + comision +
+                '}';
+    }
 }
